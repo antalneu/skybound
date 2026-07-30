@@ -1,0 +1,411 @@
+@import 'tailwindcss';
+
+/* ==================================================================
+   Skybound — dark cinematic design system
+
+   One theme, committed to: deep atmospheric navy with accent colours
+   pulled from real sky states rather than a UI palette. Cirrus blue,
+   sunset gold, storm violet.
+
+   Two densities live side by side and that is deliberate:
+     · EDITORIAL — reference pages. Generous measure, room to read.
+     · HUD       — the Explorer. Tight, monospaced, instrument-like.
+   ================================================================== */
+
+@theme {
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --color-void: #05070d;
+  --color-deep: #090d18;
+  --color-surface: #0e1424;
+  --color-raised: #141c30;
+
+  --color-ink: #e9eefb;
+  --color-ink-soft: #a6b6d2;
+  --color-ink-faint: #8195b5;
+
+  --color-cirrus: #7cc4f0;
+  --color-cirrus-deep: #3d7fae;
+  --color-gold: #f5b168;
+  --color-violet: #a394d8;
+  --color-danger: #ff8a76;
+  --color-good: #6fd3a8;
+
+  --color-hairline: rgb(150 180 230 / 0.11);
+  --color-hairline-lit: rgb(150 180 230 / 0.22);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+:root {
+  --void: #05070d;
+  --deep: #090d18;
+  --surface: #0e1424;
+
+  --ink: #e9eefb;
+  --ink-soft: #a6b6d2;
+  --ink-faint: #8195b5;
+
+  --cirrus: #7cc4f0;
+  --gold: #f5b168;
+  --violet: #a394d8;
+
+  --hairline: rgb(150 180 230 / 0.11);
+  --hairline-lit: rgb(150 180 230 / 0.22);
+
+  --glass: rgb(16 24 42 / 0.62);
+  --glass-strong: rgb(9 14 26 / 0.88);
+
+  color-scheme: dark;
+}
+
+* {
+  border-color: var(--hairline);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--void);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-synthesis-weight: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--cirrus);
+  color: var(--void);
+}
+
+/* Focus has to survive a dark glassy background — two-tone ring. */
+:where(a, button, [tabindex], input, select, summary, [role='button']):focus-visible {
+  outline: 2px solid var(--cirrus);
+  outline-offset: 2px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 5px rgb(124 196 240 / 0.16);
+}
+
+/* ---------------------------------------------------------- type ---- */
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.026em;
+  line-height: 1.02;
+}
+
+.display-lg {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.038em;
+  line-height: 0.95;
+}
+
+/* Instrument label. Used for every HUD field name and section eyebrow. */
+.hud-label {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+/* Numeric readout. Tabular so digits don't jitter as values tick. */
+.hud-value {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.latin {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.prose-study {
+  max-width: 68ch;
+}
+
+.prose-study p {
+  line-height: 1.75;
+  color: var(--ink-soft);
+}
+
+.prose-study p + p {
+  margin-top: 1.05em;
+}
+
+/* -------------------------------------------------------- surfaces ---- */
+
+/*
+ * Frosted panel.
+ *
+ * The top inset highlight is what sells it — real frosted glass catches
+ * light on its top edge, and without that line the panel reads as a flat
+ * translucent rectangle instead of a physical surface.
+ */
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(22px) saturate(1.5);
+  -webkit-backdrop-filter: blur(22px) saturate(1.5);
+  border: 1px solid var(--hairline);
+  box-shadow:
+    inset 0 1px 0 0 rgb(190 215 255 / 0.09),
+    0 18px 48px -18px rgb(0 0 0 / 0.75);
+}
+
+.glass-strong {
+  background: var(--glass-strong);
+  backdrop-filter: blur(28px) saturate(1.6);
+  -webkit-backdrop-filter: blur(28px) saturate(1.6);
+  border: 1px solid var(--hairline-lit);
+  box-shadow:
+    inset 0 1px 0 0 rgb(190 215 255 / 0.11),
+    0 24px 64px -20px rgb(0 0 0 / 0.85);
+}
+
+/* Solid card for long-form reading, where blur would cost more than it gives */
+.card {
+  background: linear-gradient(180deg, rgb(20 29 48 / 0.85), rgb(14 20 36 / 0.85));
+  border: 1px solid var(--hairline);
+  box-shadow: inset 0 1px 0 0 rgb(190 215 255 / 0.06);
+}
+
+/* Hairline that fades at both ends — softer than a full-width rule */
+.rule-fade {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--hairline-lit) 15%,
+    var(--hairline-lit) 85%,
+    transparent
+  );
+}
+
+/* ------------------------------------------------- atmosphere bg ---- */
+
+/*
+ * Site-wide atmospheric wash. Three slow-drifting radial gradients over a
+ * base gradient — no images, no WebGL, and only `transform` is animated, so
+ * it composites on the GPU and costs effectively nothing.
+ */
+.atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 120% 80% at 50% -10%, #16233f 0%, transparent 62%),
+    radial-gradient(ellipse 90% 60% at 85% 15%, #1b2b47 0%, transparent 55%),
+    linear-gradient(180deg, #070b14 0%, #05070d 55%, #070a12 100%);
+}
+
+.atmosphere::before,
+.atmosphere::after {
+  content: '';
+  position: absolute;
+  inset: -25%;
+  background-repeat: no-repeat;
+  will-change: transform;
+}
+
+.atmosphere::before {
+  background-image:
+    radial-gradient(ellipse 38% 26% at 22% 32%, rgb(124 196 240 / 0.1), transparent 70%),
+    radial-gradient(ellipse 30% 20% at 72% 62%, rgb(163 148 216 / 0.09), transparent 70%);
+  animation: drift-a 64s var(--ease-inout) infinite alternate;
+}
+
+.atmosphere::after {
+  background-image:
+    radial-gradient(ellipse 34% 22% at 62% 22%, rgb(245 177 104 / 0.055), transparent 72%),
+    radial-gradient(ellipse 44% 30% at 30% 76%, rgb(61 127 174 / 0.09), transparent 72%);
+  animation: drift-b 86s var(--ease-inout) infinite alternate;
+}
+
+/* Fine grain over the whole page — kills banding in the large dark washes,
+   which is where 8-bit gradients fall apart most visibly. */
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.16;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes drift-a {
+  from {
+    transform: translate3d(-3%, -2%, 0) scale(1);
+  }
+  to {
+    transform: translate3d(4%, 3%, 0) scale(1.12);
+  }
+}
+
+@keyframes drift-b {
+  from {
+    transform: translate3d(3%, 2%, 0) scale(1.08);
+  }
+  to {
+    transform: translate3d(-4%, -3%, 0) scale(1);
+  }
+}
+
+/* ---------------------------------------------------- micro-states ---- */
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.82);
+  }
+}
+
+.live-dot {
+  animation: pulse-dot 2.2s var(--ease-inout) infinite;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -160% 0;
+  }
+  to {
+    background-position: 260% 0;
+  }
+}
+
+/* Loading skeleton — a travelling highlight, not a flat grey block */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgb(150 180 230 / 0.05) 0%,
+    rgb(150 180 230 / 0.13) 50%,
+    rgb(150 180 230 / 0.05) 100%
+  );
+  background-size: 220% 100%;
+  animation: shimmer 1.9s linear infinite;
+}
+
+@keyframes sweep {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* ------------------------------------------------------- maplibre ---- */
+
+.maplibregl-map {
+  font-family: var(--font-sans) !important;
+}
+
+/* MapLibre's default control chrome is white and breaks the HUD entirely */
+.maplibregl-ctrl-group {
+  background: var(--glass) !important;
+  backdrop-filter: blur(20px) saturate(1.5);
+  border: 1px solid var(--hairline) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 12px 32px -12px rgb(0 0 0 / 0.8) !important;
+  overflow: hidden;
+}
+
+.maplibregl-ctrl-group button {
+  background: transparent !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid var(--hairline) !important;
+}
+
+.maplibregl-ctrl-group button:hover {
+  background: rgb(124 196 240 / 0.12) !important;
+}
+
+.maplibregl-ctrl-group button .maplibregl-ctrl-icon {
+  filter: invert(1) brightness(1.6) saturate(0);
+  opacity: 0.75;
+}
+
+.maplibregl-ctrl-attrib {
+  background: rgb(5 7 13 / 0.72) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 8px 0 0 0 !important;
+  font-size: 10px !important;
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--ink-faint) !important;
+}
+
+.maplibregl-canvas:focus-visible {
+  outline: 2px solid var(--cirrus);
+  outline-offset: -2px;
+}
+
+/* -------------------------------------------------- reduced motion ---- */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  /* Hold the atmosphere at a composed frame rather than removing it */
+  .atmosphere::before {
+    transform: translate3d(0, 0, 0) scale(1.06);
+  }
+  .atmosphere::after {
+    transform: translate3d(0, 0, 0) scale(1.04);
+  }
+}
+
+/* ------------------------------------------------------ scrollbar ---- */
+
+@supports selector(::-webkit-scrollbar) {
+  ::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(124 196 240 / 0.22);
+    border-radius: 99px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(124 196 240 / 0.38);
+    background-clip: content-box;
+  }
+}

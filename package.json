@@ -1,0 +1,29 @@
+{
+  "name": "skybound",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An interactive guide to clouds — meteorology, classification, formation physics, and visual identification.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "photos": "node scripts/fetch-photos.mjs",
+    "audit": "node scripts/audit-data.mjs",
+    "verify:live": "node scripts/verify-live.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.0.0",
+    "maplibre-gl": "5.24.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^4.0.0",
+    "vite": "^7.0.0"
+  }
+}

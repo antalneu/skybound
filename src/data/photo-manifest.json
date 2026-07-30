@@ -1,0 +1,503 @@
+{
+  "hero": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1277,
+    "aspect": 1.5035,
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZgCdMoADJ5Y1tCJjJOyR+tonK4AA/ujwQ8EF+pl1pSFRx8KPdlbF/Ijuwnim052aOG0vq3GFbQ9Sk0ryl+PVP5vKtu7nm+MC/vE2KRQX0G8FQIbXhDj1J6Gp6XCKIDrg+AAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirrus_clouds_with_3D_look.jpg",
+    "artist": "Simon A. Eugster",
+    "licence": "CC BY-SA 3.0"
+  },
+  "cirrus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JQBadBFbyT5G47xR4g5cOagAA/nYRuv9PhiJ0asNQFG+imW8I6rSaPKIPiPHleSO1M2HaQDyPypTRggMoNilwlBuGJ3vgAxWbhb6dFEygc/G6v9A3SKnEsVNUQAAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirrus_uncinus_und_Cirrus_fibratus_II.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cirrus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAABQBQCdASoYABIAPu1oqk8ppiOiMBgIATAdiWQAuzM0P1AQn3q0yh8axKQ9oOf+KQsqwmAA/ILU7vpWkDJgS04Gl3Ykev12y8A9xx01qNyIwwGxuWk2/CbGkA9quTYfDUgP50UjDt/M9VPI5WxfrpkXfwDaMNe4cZn9Q3thqT4QlVAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirrus_uncinus_in_Staffeln_angeordnet.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cirrocumulus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBACdASoYABAAPu1iqU2ppaQiMAgBMB2JbACdMoRwACmQgStaxOePQ5vSQAD+2N9f5cxWL5b3GcI/PmF56QQdKBGi8OHH3yD3ts9fe+YfYp+cbiZ1eWNBbIx/vXBUCcNGAga8NsRlYi2HvIMwJXEOZj/aC6AA",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirrocumulus_clouds_over_Bergsfjorden,_Senja,_Troms,_Norway,_2015_September.jpg",
+    "artist": "Ximonic (Simo Räsänen)",
+    "licence": "CC BY-SA 3.0"
+  },
+  "cirrocumulus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwBACdASoYABIAPuVio02pJaMiMAwBIByJZQCzgBSgFv++990rnJ2q/4AA/jKAWUTz0KO+p2TgdEvKpWoWzYz90y3TbzfMrXDnduCYCbxKns2TAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirrus_and_Cirrocumulus_over_Jakarta.jpg",
+    "artist": "Vitaium",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cirrostratus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBQCdASoYABIAPu1urU8ppyQiMBgIATAdiWcAzuwNFlfyMOy8yT+MkP+d5Z2BeA5FigAA/sv16omkawK6xhjBa8GfYe+qQuc2SqVcEhvFPTATYR8ITnufpsxC9px8hbOIjXhKxSDrZw+xTloJOJZ3M1gxna4z+2AAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:22%C2%B0-Halo_in_Cirrostratus_fibratus_bei_Limburg_II.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cirrostratus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQBACdASoYABIAPt1apU2opSOiN/qoARAbiWcAxnwh3/JhBZMtYmzRa9HCDiuTgAD9/IIF5tjMXimehdwotoh3hzGFw+D2KrZjsBQubZgjeKRLJbiNGHIjI7CxR+QAAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Cirrostratus_transformiert_zu_Altostratus_I_farbusm.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "altocumulus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZwDG9ApC2rZAYcAA/dXCNYTWTKvaUWJPW+s/621lCfyM+R+salDoVkPKA22YlPeYAQWS65NvTyoIfe9xXbzeEQRvS6ihxLFjg9XmkAKc2OaKqgAAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Altocumulus_stratiformis_translucidus_perlucidus.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "altocumulus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZwAAVF/Ml/qgaMlBCYegAP68hYFMG8/sKoNSIUhc5DCWjyvn5mmcp7MsNJpKMZyyzv7oDsuj1gPTeCeWJTbIq05fEh7KXlvteM/TQTABDhsc+tHOUYkgZ4asqdry374AAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Altocumulus_stratiformis_translucidus_perlucidus_undulatus.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "altostratus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBQCdASoYABIAPtFWok2oJSMiN+gBABoJZwDMHCkZlftdg2XarcTH3lzZoUpGFj6AAP32kYCedhcZJuyLAHu8seKPff/sIdJNTOzsteoeRHP4Wr3yEAgvyRdOzZJUiaiIAAAA",
+    "source": "https://commons.wikimedia.org/wiki/File:2017-06-22_16_57_51_Sun_shining_dimly_through_an_altostratus_cloud_layer_over_Ladybank_Lane_in_the_Chantilly_Highlands_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+    "artist": "Famartin",
+    "licence": "CC BY-SA 4.0"
+  },
+  "nimbostratus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwBACdASoYABIAPu1or1CppaQiqAqpMB2JaQAAG7aNCNRA2ZDFk/psCC3kAPqAANYAlXxV8EMWMNWStBWLQA/CHan4kdMdoPHEKM8tJ/hypGN6NYmYWSXbigAAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Nimbostratus_pannus.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "nimbostratus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1279,
+    "aspect": 1.5012,
+    "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACsAB9DGbo9sh0p+XN4MAD+kaNtiFhaqu2lYUUrDAkDVvj26adpfhq/CTElVxUjz5r5yfCQmE5W3FjWvFb+l1GBAKAqFZKy1SN7hvYek/aNG9PGkwAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Nimbostratus_Forest.jpg",
+    "artist": "Gabriel Picard",
+    "licence": "CC BY-SA 4.0"
+  },
+  "stratocumulus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoYABIAPu1sqlGppaOiqAqpMB2JZwDNwAgqG33oxdYgq8W7fAAArm2p+w7VIYu7CkAzxYZUK4VaERSf0IGbiBxl/3OMYPCsWJ1esuoL1a60oOM+ncIqKW1oTdpFASeClX/+HlVLt3UrgkDXQYijCM6ZtInWYv8Uh4lTXAAAAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Stratocumulus_stratiformis_duplicatus_II.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "stratocumulus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JZwDG9A39BmAeZRpt/D60AADNREKi9EoHPB3YCZGc68W8dL2ng32br4oU/t4nlRb9om/TatibLkpwHWTx5SCsvpeqOWW5Gpg0uvWlVOOk+pjSqdjiJ2E3c4kI8OWm0RYqg2NR66wAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Stratocumulus_lacunosus.jpg",
+    "artist": "Berrucomons",
+    "licence": "CC BY-SA 3.0"
+  },
+  "stratus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwBACdASoYABIAPu1iqE2ppaOiMAgBMB2JZwDJECHXYvC8WzU+dEz2WU3kQAD+7XzYnY5iWKlnsxbBvfWxwAvn6m6XF2y/y+hBXjORAeWxN3xCNaI9LR/C67KkWAAA",
+    "source": "https://commons.wikimedia.org/wiki/File:2016-10-01_18_00_40_Low_stratus_over_a_field_at_the_National_Weather_Service's_Baltimore-Washington_Weather_Forecast_Office_on_Old_Ox_Road_(Virginia_State_Secondary_Route_606)_in_Sterling,_Loudoun_County,_Virginia.jpg",
+    "artist": "Famartin",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cumulus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 3650,
+    "height": 2592,
+    "aspect": 1.4082,
+    "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBACdASoYABEAPu1qr1CppaQiqAqpMB2JZgCdMw4+4BDC80g0Xuk4imivMBRAAP7ZTxaeUOkF8m8SL1VvzBL22C1WAx6woZ84+ohQJ2KOm9ufJGnCUgZIy6h8TDZ9tLzYi3A+0QcdPMMsmJyD4Xj4C9oUQhXGYadTXsvwlBO4RzIFc/tcsy8QFd/7phXTjqQAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Cumulus_humilis_clouds.jpg",
+    "artist": "Toby Hudson",
+    "licence": "CC BY-SA 3.0"
+  },
+  "cumulus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 5472,
+    "height": 3648,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JZwDG9CHLcgOawHryAAD+0woJonjz0gXnl2AQ3tgSjwL9cY1jFa1l3tG0BRDzMf9470ObL8wkSYTUMKMWMeKgAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Cumulus_humilis_-_39.jpg",
+    "artist": "Medium69 (William Crochot)",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cumulonimbus-1": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JYwCdMoMnJEOlSJCBRJZwV5sAAP7L6LpvDkoeVPNcj92RB1iiOvqZ3TaaQgy3B8t2qac4pGuD3cV6GiZipgWl4IaD6JDKHxkocfAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Anvil_of_a_Thunderstorm_Cloud.jpg",
+    "artist": "Eulenjäger",
+    "licence": "CC BY-SA 3.0"
+  },
+  "cumulonimbus-2": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1272,
+    "aspect": 1.5094,
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoYABAAPu1kq04ppaQiMAgBMB2JZwDLLB6GKgmDVMaHuO1ggAD+wDQWCWpyAL8pzXBD3nIHlJ89l8p5DAVnjprxy1UiPGOBeY+3vLs/Gqz0B0lwm2xB39BDExJ7ZnF9yiqYAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_cloud_over_Africa.jpg",
+    "artist": "NASA",
+    "licence": "Public domain"
+  },
+  "noctilucent": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1276,
+    "aspect": 1.5047,
+    "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADQAwCdASoYABAAPu1kqU4ppaOiMAgBMB2JYgCdACHW397fO27FpwAA/uQNoORXNgQcApSzv28q+0VAhy8caEv3XB28rmcy2kEPzieUM0rfFGZx/FTsAgG+ykGHDGWrr3ITRaAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Helkivad_%C3%B6%C3%B6pilved_Kuresoo_kohal.jpg",
+    "artist": "Martin Koitmäe",
+    "licence": "CC BY-SA 4.0"
+  },
+  "nacreous": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAAAwBACdASoYABIAPulcqE2pJKOiN/VYASAdCUAXqwFs4L1CFeqjGmum14AA/nGtA/xKBr6WxniS3nOPm/q1MEXDGCDDhKDiqQ+6QRxhz3dzaQHtdNixCLUCGQIBrov3O8YRl+1ktj8QQaUzV18iO1Dcg6F0Eyl4qoPTUQ3uFlZTAwiAAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Nacreous_clouds_Antarctica.jpg",
+    "artist": "Alan Light",
+    "licence": "CC BY 2.0"
+  },
+  "mammatus": {
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1281,
+    "height": 813,
+    "aspect": 1.5756,
+    "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAADwAwCdASoYAA8APu1iqU2ppaOiMAgBMB2JZACdAB9qPU1jHdV3W9Z4AM45P6V4swXbCcJPN1GoCsqAGMScbpAPPMvs4a6uAgkIKqbYrbh8QLTYpuOlkUTLapVsjQ/W49ojZrU8NT9zi7GCyt+LoRfThzuwGMx1+IE1tToQElyUnRM4c635gvNrThwCPAAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Mammatus-clouds-Tulsa-1973.png",
+    "artist": "NOAA",
+    "licence": "Public domain"
+  },
+  "lenticular": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1920,
+    "aspect": 1,
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBQCdASoYABgAPtVUoU2oJKMiN+gBABqJaACdHX+gqxrwHOt9HydFkafCGSGoCtiwAP7DT5DFWI3zQCctYJ+AjryvwFxMHIsBnHCalxgdALVc+mw9cChRj8FP3xSJvIrMQdR2oKsa5oRICeL85BoAAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Lenticular_clouds_(Altocumulus_lenticularis)_(30368465690).jpg",
+    "artist": "Giuseppe Donatiello",
+    "licence": "CC0"
+  },
+  "kelvin-helmholtz": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1680,
+    "aspect": 1.1429,
+    "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAAAwBQCdASoYABUAPu1eqk4ppKQiMBgMATAdiWIAqRT/KkALehm+4czevIAmcBTQKepApgD33n44Cw6h2KeZdYGiIz2LyvT1K12DvOdSzPP2H/UuoqgY0DLWaV20rTG4hEkMmBQ7SGTQ2tJvO253eMEZZRhcgo7D8DJ5056qpj5BJ9pO6K4REgtqWQfz/ar4IP5UaME4RhzWoiGFROcHpkc30AVjf7u8Z0AkQ5pHMRuLCidFWTr4RKAgAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelvin_Helmholtz_cloud_formation_during_Hartford_sunset.jpg",
+    "artist": "Paul Danese",
+    "licence": "CC0"
+  },
+  "asperitas": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQBACdASoYABIAPu1eqE4ppKOiMBgMATAdiWcAyJgR86nzZ7GmfzGhwb+EVvcsAAD+sGHDUoe5G8CY+ANRdZPFE9PJvSIXNrYwXuBlZpheQ05XoQcax3P4hspFIUPm+N9K8GsTk/wD0fkjgQAAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Stratocumulus_stratiformis_asperitas_am_Rand_eines_Regengebiets_III.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "arcus": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1278,
+    "aspect": 1.5023,
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoYABAAPu1mqk4ppaOiMAgBMB2JYgCdACHwoiRIgCsdQmQieAD+7a0YPWjRXngn6adXbvePSA9RzLp/VL1YTguXcCkxCh13mu2ISikY7x3QaRG4hsYjwoofrPeHAWBor9sZnu228N5zKCwbYbQAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_arcus_%C3%BCber_Schwanebeck.jpg",
+    "artist": "Birkho",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cavum": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABQBACdASoYABIAPu1qr1CppaQiqAqpMB2JQAAFzE1TXc5Jqbv92KYu3QSAAP6dAEY4Y9U+QnzX/O2z/7v+96VDrugWSjp9i2x+wZfv6dDseRCVUaGgWw5BSd6KQGKWYH5ciVfXVIjCxH/3UHssAkJOIAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Altocumulus_stratiformis_cavum_mit_langer_Kante.jpg",
+    "artist": "GerritR",
+    "licence": "CC BY-SA 4.0"
+  },
+  "contrails": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1446,
+    "aspect": 1.3278,
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwBACdASoYABIAPuFaqE2opSQsMAwBgBwJZQClrBJPBqWAZKljo9lRMlwjYADrF+r23RrykzUq9XmVXuWikQIoeB83rNsIrC+z5NKhuDT+MlVPKTiYcdgwek/6bIYgAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Three_Contrails_(Condensation_Trail)_visible_simultaneously.jpg",
+    "artist": "Iamdev37",
+    "licence": "CC BY-SA 4.0"
+  },
+  "pyrocb": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1280,
+    "aspect": 1.5,
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoRwNErUgAIjlNdldhrUGAD90k2zD8N1xJLGb3MaANqD9T5s4gvPq40SpPJP3ciwRN2qtaUpoCmM7FWp4sMJAjN7FoW2k5ykMdDfvGvKDDbM+kJKIAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Pyrocumulus_cloud_produced_by_the_Dixie_Fire_on_July_22-5865.jpg",
+    "artist": "Frank Schulenburg",
+    "licence": "CC BY-SA 4.0"
+  },
+  "halo22": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADQBACdASoYABIAPuFcqE2opSQiMAwBEBwJYwCw7CKKSo9cmq2b2LvT9jL9E1fUAAD+5fA5NWAc6A6JZ5iiYcB7J3pnoiPq2q84eqYKxyQIyeMonGvoHuiOpo/WSjeXXUfxHXbhohX4vQtrpR5hv5AzwAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Halo_in_cirrostratus_1.jpg",
+    "artist": "Chrumps",
+    "licence": "CC BY 2.5"
+  },
+  "sundog": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1177,
+    "aspect": 1.6313,
+    "lqip": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAAAwBACdASoYAA8APu1iqU2ppaQiMAgBMB2JQBOkAfhOU4zpmkbTft8CWsAA/iGXr2bW9TC4D6lul6l5vmQOq3ydnz1qmPSZVnu3LlxdKhA5rP1ZciMUb8pbomY9DFwlF9EU4jXlL490QuLXZ0utW0zdTgXojWmX3mi/gtJmXXt1mLsLbafKGBNEAAA=",
+    "source": "https://commons.wikimedia.org/wiki/File:Sun_dog_with_reflection_over_Brofjorden.jpg",
+    "artist": "W.carter",
+    "licence": "CC BY-SA 4.0"
+  },
+  "cza": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 3057,
+    "aspect": 0.6281,
+    "lqip": "data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAAAQBgCdASoYACYAPu1sq1AppiOiqqoBMB2JQBTo/SAomTQImz7zpaEHiQD9c/RQc+DxMrANwPH7aAAA+esDy5k24nfXM/sS1hL5I0FllWCsBHZvafU4UiJehTRkEeftm1B2ccctQt3vobjFFjhuWexqnAgGOcgi35In8t45fL3g1p9TjqJ0PhMVfbCYdPfACsSy3noSk+6RD58kX8kYgAIpK4NZPG7EHw36uGqoNwAAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Circumzenithal_arc_and_sundog_over_Cirrus_clouds.jpg",
+    "artist": "Brocken Inaglory",
+    "licence": "CC BY-SA 3.0"
+  },
+  "corona": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1275,
+    "aspect": 1.5059,
+    "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoYABAAPu1kqU2ppaQiMAgBMB2JZwAAW+y++e5CHwLjv+WAAP70KS3kvgv8rPVBcznhUziXtIKVzJaaB8X/YyIWSOsWcqPjy/FofZWOYfoAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Lunar_Corona.jpg",
+    "artist": "Wing-Chi Poon",
+    "licence": "CC BY-SA 2.5"
+  },
+  "iridescence": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRtQAAABXRUJQVlA4IMgAAACQBQCdASoYABIAPu1ur1IppiQiqAgBMB2JYwCpJxglvAv4akP+9ndxT3JfUirYWBbw3gNUAAD+9Ccg26qktlazoNxaZ+ObtaXKQM1+PzlXvHwUMTJMUqwo72eh6U3vq7A/4ncofoUfcFndsmQngfiYBPK+6tQGobDSelsJeF6ep81erfr4yq1AA7l1R5SCGX/6oRhLQT16kLVBcmVjf7WixRGNllXTTcG9qFac8MpdqZVIB4JDA00zuKaB+8qbAGPtamjqdgAAAA==",
+    "source": "https://commons.wikimedia.org/wiki/File:Highly_iridising_altocumulus.jpg",
+    "artist": "C messier",
+    "licence": "CC BY-SA 3.0"
+  },
+  "glory": {
+    "widths": [
+      640
+    ],
+    "width": 1024,
+    "height": 708,
+    "aspect": 1.4463,
+    "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQBACdASoYABEAPulkqk2pJaQiMBgMASAdCWUAw6wO7F3jbEgsluyniB/pAYAA9yaor3GVYKdPzttk5jrZVugyCO55vKi/wW8cDWAfSspkbzAA",
+    "source": "https://commons.wikimedia.org/wiki/File:Gloria_around_plane_shadow.jpg",
+    "artist": "Sudika",
+    "licence": "CC BY-SA 3.0"
+  },
+  "crepuscular": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.3333,
+    "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAABQBACdASoYABIAPu1oq08ppiOiMBgIATAdiWUAxNgQ8CyP0Sk56p5z3dQAAP7DMnMgSSqPwB2OLEzREBs8GaQ3039B+kC24iEhOe8bvAYMRF/cdsTHw/8jLmKiMRkuWtkiuSw06ba+WFdNUWy9OAAA",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-07-29_06_54_51_Crepuscular_rays_through_a_break_in_a_altostratus_cloud_layer_viewed_from_Burlington_County_Route_630_(Woodlane_Road)_in_Westampton_Township,_Burlington_County,_New_Jersey.jpg",
+    "artist": "Famartin",
+    "licence": "CC BY-SA 4.0"
+  }
+}
