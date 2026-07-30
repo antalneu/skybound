@@ -15,6 +15,14 @@ import manifest from '../data/photo-manifest.json'
  * for study material a wrong photo is worse than no photo.
  */
 
+/**
+ * Vite rewrites only the asset paths it processes at build time. These are
+ * assembled at runtime from the manifest, so the deploy base has to be applied
+ * by hand — otherwise a site served from a subpath (a GitHub Pages project page
+ * at /<repo>/) asks the domain root for /photos/… and gets a 404.
+ */
+const PHOTO_BASE = `${import.meta.env.BASE_URL}photos/`
+
 function Placeholder({ subject, reason, className = '' }) {
   return (
     <div
@@ -62,7 +70,7 @@ export default function Photo({
     )
   }
 
-  const srcSet = entry.widths.map((w) => `/photos/${meta.id}-${w}.webp ${w}w`).join(', ')
+  const srcSet = entry.widths.map((w) => `${PHOTO_BASE}${meta.id}-${w}.webp ${w}w`).join(', ')
   const ratio = aspect ?? `${entry.width} / ${entry.height}`
 
   return (
@@ -73,7 +81,7 @@ export default function Photo({
       <picture>
         <source type="image/webp" srcSet={srcSet} sizes={sizes} />
         <img
-          src={`/photos/${meta.id}.jpg`}
+          src={`${PHOTO_BASE}${meta.id}.jpg`}
           alt={meta.alt}
           width={entry.width}
           height={entry.height}
